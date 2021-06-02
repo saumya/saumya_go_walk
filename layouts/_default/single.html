@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section>
+  <div class="title-single">
+    <h1>{{ .Title }}</h1>
+    <div class="txt-big-1">{{ .Date.Format "2 Jan, 2006" }}</div>
+  </div>
+  <div>
+    <article>
+      {{ .Content }}
+    </article>
+  </div>
+</section>
+<aside>
+  <div>
+    <section class="single-footer-info">
+      <h4>{{ .Date.Format "Mon Jan 2, 2006" }}</h4>
+      <h4>{{ .ReadingTime }} Mins Read</h4>
+      <h4>{{ .WordCount }} Words</h4>
+    </section>
+  </div>
+  <div class="single-footer">
+    <div class="">
+      {{ with .PrevInSection }}
+      <a class="previous" href="{{ .Permalink }}"> {{.Title}}</a>
+      {{ end }}
+    </div>
+    <div class="">
+      {{ with .NextInSection }}
+      <a class="next" href="{{ .Permalink }}"> {{.Title}}</a>
+      {{ end }}
+    </div>
+  </div>
+</aside>
+{{ end }}

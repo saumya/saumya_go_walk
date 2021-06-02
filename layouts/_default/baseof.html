@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+      <section class="section">
+        {{- partial "header.html" . -}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+
+        <!-- The part of the page that begins to differ between templates -->
+
+        </div>
+        {{- partial "footer.html" . -}}
+      </section>
+    </body>
+</html>
