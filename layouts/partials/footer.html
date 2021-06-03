@@ -8,12 +8,12 @@
     </div>
 
     <div>
-      <a href="/">
+      <a href="{{ .Site.BaseURL }}">
         Home
       </a>
     </div>
     <div>
-      <a href="/posts">
+      <a href="{{ .Site.BaseURL }}posts">
         Posts
       </a>
     </div>
@@ -21,7 +21,7 @@
 
   <div class="footer-intro">
     <div class="footer-intro-description">
-      <strong>Saumya</strong> is an iternal seeker. A maker of things and curious about everything. Continuous learning is, what fuels him. This blog itself, reflects one of many things he is trying at all the time. Talk to @saumya on Twitter.
+      <strong>Saumya</strong> is an iternal seeker. A maker of things and curious about everything. Continuous learning is, what fuels him. This blog itself, reflects one of many things he is trying at all the time. Talk to <a href="https://twitter.com/saumya">@Saumya</a> on Twitter.
     </div>
     <div class="footer-rights">
       {{ $.Site.Title}} | {{ now.Format "2006" }} | No rights reserved.

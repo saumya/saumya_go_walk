@@ -24,4 +24,11 @@ Subtitle = "Where there is a will, there is a way."
 
 
 
+### command line
+
+```
+hugo server -D --port 80 --baseUrl=https://localhost:1313/2021/ 
+```
+
+
  [hugo]: https://gohugo.io/

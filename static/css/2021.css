@@ -13,12 +13,20 @@
 html, body {
   background: #FFE;
   font-family: MonospaceTypewriter;
+  line-height: 2rem;
 }
 
 blockquote {
   margin-left: 2rem;
   font-size: 1.2rem;
   padding:1rem;
+}
+
+code {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #FFC;
+  font-size: 1.4em;
 }
 
 article {
@@ -51,7 +59,9 @@ header h2 {
 .summary-topic-point{
   color: #991;
   background-color: #FFA;
+
   text-align: center;
+  line-height: 1.2rem;
 
   width: 120px;
   max-width: 120px;
@@ -95,8 +105,8 @@ nav{
 .footer-intro-description {
   text-align: center;
   margin-top: 2rem;
-  font-size: 2em;
-
+  font-size: 2rem;
+  line-height: 3rem;
   font-family: SaniesScript;
 }
 .footer-rights{
@@ -110,6 +120,14 @@ nav{
   align-items: center;
 
   font-size: 4rem;
+}
+.title-single h2{
+  font-size: 1.2rem;
+  margin: 0;
+}
+.title-single h4{
+  font-size: 0.8rem;
+  margin: 0;
 }
 
 .single-footer-info{
