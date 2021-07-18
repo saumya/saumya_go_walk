@@ -120,6 +120,10 @@ nav{
   align-items: center;
 
   font-size: 4rem;
+  text-align: center;
+}
+.title-single h1{
+  line-height: 5rem;
 }
 .title-single h2{
   font-size: 1.2rem;
