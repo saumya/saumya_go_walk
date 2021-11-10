@@ -52,35 +52,61 @@ header h2 {
 
 .summary-point{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+}
+.summary-topic-point{
+  display: flex;
+  gap: 1rem;
+  color: #777;
+}
+.summary-description{
   margin-bottom: 2rem;
 }
-
-.summary-topic-point{
-  color: #991;
-  background-color: #FFA;
-
-  text-align: center;
-  line-height: 1.2rem;
-
-  width: 120px;
-  max-width: 120px;
-  height: 120px;
-  max-height: 120px;
-  border-radius: 60px;
-
-  flex-shrink: 0;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  margin-right: 1rem;
-}
-
 .summary-title{
   font-size: 1.2rem;
+  font-weight: bold;
 }
+
+@media screen and (min-width: 800px) {
+  .summary-point{
+    flex-direction: row;
+    margin-bottom: 2rem;
+  }
+  .summary-topic-point{
+    color: #991;
+    background-color: #FFA;
+
+    text-align: center;
+    line-height: 1.2rem;
+
+    width: 120px;
+    max-width: 120px;
+    height: 120px;
+    max-height: 120px;
+    border-radius: 60px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-right: 1rem;
+  }
+  .summary-title{
+    font-size: 1.4rem;
+    font-weight: normal;
+  }
+
+} /** END : MediaQuery */
+
+
+
+
+
+
+
 
 .txt-big-1{
   font-size: 1.4rem;
