@@ -22,11 +22,18 @@ blockquote {
   padding:1rem;
 }
 
-code {
-  padding-left: 1rem;
-  padding-right: 1rem;
+pre {
   background-color: #FFC;
+  overflow: auto;
+}
+code {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+pre>code {
   font-size: 1.4em;
+  font-weight: normal;
 }
 
 article {
