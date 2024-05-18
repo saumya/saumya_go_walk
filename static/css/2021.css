@@ -164,11 +164,11 @@ nav{
   flex-direction: column;
   align-items: center;
 
-  font-size: 4rem;
+  font-size: 2em;
   text-align: center;
 }
 .title-single h1{
-  line-height: 5rem;
+  line-height: 1.2em;
 }
 .title-single h2{
   font-size: 1.2rem;
