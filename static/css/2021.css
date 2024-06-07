@@ -18,7 +18,7 @@ html, body {
 
 blockquote {
   margin-left: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.2em;
   padding:1rem;
 }
 
@@ -27,7 +27,7 @@ pre {
   overflow: auto;
 }
 code {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: bold;
 }
 
